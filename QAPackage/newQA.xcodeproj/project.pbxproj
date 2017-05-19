@@ -1,0 +1,813 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A05571721ECEEC640074DE69 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A05571711ECEEC640074DE69 /* main.m */; };
+		A05571751ECEEC640074DE69 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A05571741ECEEC640074DE69 /* AppDelegate.m */; };
+		A05571781ECEEC640074DE69 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A05571771ECEEC640074DE69 /* ViewController.m */; };
+		A055717B1ECEEC640074DE69 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A05571791ECEEC640074DE69 /* Main.storyboard */; };
+		A05571801ECEEC640074DE69 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A055717E1ECEEC640074DE69 /* LaunchScreen.storyboard */; };
+		A05572001ECEF28E0074DE69 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A05571991ECEF28D0074DE69 /* Assets.xcassets */; };
+		A05572011ECEF28E0074DE69 /* big.png in Resources */ = {isa = PBXBuildFile; fileRef = A055719A1ECEF28D0074DE69 /* big.png */; };
+		A05572021ECEF28E0074DE69 /* DateAndTimePickerView.xib in Resources */ = {isa = PBXBuildFile; fileRef = A055719B1ECEF28D0074DE69 /* DateAndTimePickerView.xib */; };
+		A05572031ECEF28E0074DE69 /* end.gif in Resources */ = {isa = PBXBuildFile; fileRef = A055719C1ECEF28D0074DE69 /* end.gif */; };
+		A05572041ECEF28E0074DE69 /* health.css in Resources */ = {isa = PBXBuildFile; fileRef = A055719D1ECEF28D0074DE69 /* health.css */; };
+		A05572051ECEF28E0074DE69 /* health.js in Resources */ = {isa = PBXBuildFile; fileRef = A055719E1ECEF28D0074DE69 /* health.js */; };
+		A05572061ECEF28E0074DE69 /* libQuantumAnalyzer.a in Frameworks */ = {isa = PBXBuildFile; fileRef = A055719F1ECEF28D0074DE69 /* libQuantumAnalyzer.a */; };
+		A05572071ECEF28E0074DE69 /* man_1.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = A05571A01ECEF28D0074DE69 /* man_1.mp4 */; };
+		A05572081ECEF28E0074DE69 /* man_2.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = A05571A11ECEF28D0074DE69 /* man_2.mp4 */; };
+		A05572091ECEF28E0074DE69 /* man_3.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = A05571A21ECEF28D0074DE69 /* man_3.mp4 */; };
+		A055720A1ECEF28E0074DE69 /* Mark.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A05571A31ECEF28D0074DE69 /* Mark.jpg */; };
+		A055720B1ECEF28E0074DE69 /* modules.xml in Resources */ = {isa = PBXBuildFile; fileRef = A05571A41ECEF28D0074DE69 /* modules.xml */; };
+		A055720C1ECEF28E0074DE69 /* nv_1.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = A05571A51ECEF28D0074DE69 /* nv_1.mp4 */; };
+		A055720D1ECEF28E0074DE69 /* nv_2.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = A05571A61ECEF28D0074DE69 /* nv_2.mp4 */; };
+		A055720E1ECEF28E0074DE69 /* nv_3.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = A05571A71ECEF28D0074DE69 /* nv_3.mp4 */; };
+		A055720F1ECEF28E0074DE69 /* PageBg.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A05571A81ECEF28D0074DE69 /* PageBg.jpg */; };
+		A05572101ECEF28E0074DE69 /* PageBg1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A05571A91ECEF28D0074DE69 /* PageBg1.jpg */; };
+		A05572111ECEF28E0074DE69 /* PageBg2.png in Resources */ = {isa = PBXBuildFile; fileRef = A05571AA1ECEF28D0074DE69 /* PageBg2.png */; };
+		A05572121ECEF28E0074DE69 /* Podfile in Resources */ = {isa = PBXBuildFile; fileRef = A05571AB1ECEF28D0074DE69 /* Podfile */; };
+		A05572141ECEF28E0074DE69 /* QAAlertView.xib in Resources */ = {isa = PBXBuildFile; fileRef = A05571AD1ECEF28D0074DE69 /* QAAlertView.xib */; };
+		A05572151ECEF28E0074DE69 /* QABeginCheckViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = A05571AF1ECEF28D0074DE69 /* QABeginCheckViewController.xib */; };
+		A05572161ECEF28E0074DE69 /* QAConfigViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = A05571B01ECEF28D0074DE69 /* QAConfigViewController.xib */; };
+		A05572171ECEF28E0074DE69 /* QACreatUserViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = A05571B11ECEF28D0074DE69 /* QACreatUserViewController.xib */; };
+		A05572181ECEF28E0074DE69 /* QADeleteViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = A05571B21ECEF28D0074DE69 /* QADeleteViewController.xib */; };
+		A05572191ECEF28E0074DE69 /* QAHealthTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = A05571B41ECEF28D0074DE69 /* QAHealthTableViewCell.xib */; };
+		A055721A1ECEF28E0074DE69 /* QAHealthViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = A05571B51ECEF28D0074DE69 /* QAHealthViewController.xib */; };
+		A055721B1ECEF28E0074DE69 /* QAHistoryTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = A05571B61ECEF28D0074DE69 /* QAHistoryTableViewCell.xib */; };
+		A055721C1ECEF28E0074DE69 /* QAHistoryViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = A05571B71ECEF28D0074DE69 /* QAHistoryViewController.xib */; };
+		A055721D1ECEF28E0074DE69 /* QAHomeViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = A05571B81ECEF28D0074DE69 /* QAHomeViewController.xib */; };
+		A055721E1ECEF28E0074DE69 /* QAManageTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = A05571B91ECEF28D0074DE69 /* QAManageTableViewCell.xib */; };
+		A055721F1ECEF28E0074DE69 /* QAManageViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = A05571BA1ECEF28D0074DE69 /* QAManageViewController.xib */; };
+		A05572201ECEF28E0074DE69 /* QANewHealthCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = A05571BC1ECEF28D0074DE69 /* QANewHealthCollectionViewCell.xib */; };
+		A05572211ECEF28E0074DE69 /* QANewHealthViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = A05571BD1ECEF28D0074DE69 /* QANewHealthViewController.xib */; };
+		A05572221ECEF28E0074DE69 /* QASettingViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = A05571BF1ECEF28D0074DE69 /* QASettingViewController.xib */; };
+		A05572231ECEF28E0074DE69 /* QMAnalyzer_20160614-男.iml in Resources */ = {isa = PBXBuildFile; fileRef = A05571C01ECEF28D0074DE69 /* QMAnalyzer_20160614-男.iml */; };
+		A05572241ECEF28E0074DE69 /* QQ20170328-230311.png in Resources */ = {isa = PBXBuildFile; fileRef = A05571C11ECEF28D0074DE69 /* QQ20170328-230311.png */; };
+		A05572251ECEF28E0074DE69 /* ReportList.sqlite in Resources */ = {isa = PBXBuildFile; fileRef = A05571C21ECEF28D0074DE69 /* ReportList.sqlite */; };
+		A05572261ECEF28E0074DE69 /* TblMeasData.sqlite in Resources */ = {isa = PBXBuildFile; fileRef = A05571C31ECEF28D0074DE69 /* TblMeasData.sqlite */; };
+		A05572271ECEF28E0074DE69 /* TblSubItemCase.sqlite in Resources */ = {isa = PBXBuildFile; fileRef = A05571C41ECEF28D0074DE69 /* TblSubItemCase.sqlite */; };
+		A05572281ECEF28E0074DE69 /* TblSuggest.sqlite in Resources */ = {isa = PBXBuildFile; fileRef = A05571C51ECEF28D0074DE69 /* TblSuggest.sqlite */; };
+		A05572291ECEF28E0074DE69 /* template.html in Resources */ = {isa = PBXBuildFile; fileRef = A05571C61ECEF28D0074DE69 /* template.html */; };
+		A055722A1ECEF28E0074DE69 /* workspace.xml in Resources */ = {isa = PBXBuildFile; fileRef = A05571C71ECEF28D0074DE69 /* workspace.xml */; };
+		A055722B1ECEF28E0074DE69 /* YC00.gif in Resources */ = {isa = PBXBuildFile; fileRef = A05571C81ECEF28D0074DE69 /* YC00.gif */; };
+		A055722C1ECEF28E0074DE69 /* YC01.gif in Resources */ = {isa = PBXBuildFile; fileRef = A05571C91ECEF28D0074DE69 /* YC01.gif */; };
+		A055722D1ECEF28E0074DE69 /* YC02.gif in Resources */ = {isa = PBXBuildFile; fileRef = A05571CA1ECEF28D0074DE69 /* YC02.gif */; };
+		A055722E1ECEF28E0074DE69 /* YC03.gif in Resources */ = {isa = PBXBuildFile; fileRef = A05571CB1ECEF28D0074DE69 /* YC03.gif */; };
+		A055722F1ECEF28E0074DE69 /* YC04.gif in Resources */ = {isa = PBXBuildFile; fileRef = A05571CC1ECEF28D0074DE69 /* YC04.gif */; };
+		A05572301ECEF28E0074DE69 /* YC05.gif in Resources */ = {isa = PBXBuildFile; fileRef = A05571CD1ECEF28D0074DE69 /* YC05.gif */; };
+		A05572311ECEF28E0074DE69 /* YC06.gif in Resources */ = {isa = PBXBuildFile; fileRef = A05571CE1ECEF28D0074DE69 /* YC06.gif */; };
+		A05572321ECEF28E0074DE69 /* YC07.gif in Resources */ = {isa = PBXBuildFile; fileRef = A05571CF1ECEF28D0074DE69 /* YC07.gif */; };
+		A05572331ECEF28E0074DE69 /* YC08.gif in Resources */ = {isa = PBXBuildFile; fileRef = A05571D01ECEF28D0074DE69 /* YC08.gif */; };
+		A05572341ECEF28E0074DE69 /* YC09.gif in Resources */ = {isa = PBXBuildFile; fileRef = A05571D11ECEF28D0074DE69 /* YC09.gif */; };
+		A05572351ECEF28E0074DE69 /* YCMark1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A05571D21ECEF28D0074DE69 /* YCMark1.jpg */; };
+		A05572361ECEF28E0074DE69 /* YCMark2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A05571D31ECEF28D0074DE69 /* YCMark2.jpg */; };
+		A05572371ECEF28E0074DE69 /* YCMark3.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A05571D41ECEF28D0074DE69 /* YCMark3.jpg */; };
+		A05572381ECEF28E0074DE69 /* YCMark4.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A05571D51ECEF28D0074DE69 /* YCMark4.jpg */; };
+		A05572391ECEF28E0074DE69 /* 乳腺检测报告.htm in Resources */ = {isa = PBXBuildFile; fileRef = A05571D61ECEF28D0074DE69 /* 乳腺检测报告.htm */; };
+		A055723A1ECEF28E0074DE69 /* 人体成分检测报告.htm in Resources */ = {isa = PBXBuildFile; fileRef = A05571D71ECEF28D0074DE69 /* 人体成分检测报告.htm */; };
+		A055723B1ECEF28E0074DE69 /* 人体毒素检测报告.htm in Resources */ = {isa = PBXBuildFile; fileRef = A05571D81ECEF28D0074DE69 /* 人体毒素检测报告.htm */; };
+		A055723C1ECEF28E0074DE69 /* 免疫系统检测报告.htm in Resources */ = {isa = PBXBuildFile; fileRef = A05571D91ECEF28D0074DE69 /* 免疫系统检测报告.htm */; };
+		A055723D1ECEF28E0074DE69 /* 内分泌系统检测报告.htm in Resources */ = {isa = PBXBuildFile; fileRef = A05571DA1ECEF28D0074DE69 /* 内分泌系统检测报告.htm */; };
+		A055723E1ECEF28E0074DE69 /* 前列腺检测报告.htm in Resources */ = {isa = PBXBuildFile; fileRef = A05571DB1ECEF28D0074DE69 /* 前列腺检测报告.htm */; };
+		A055723F1ECEF28E0074DE69 /* 基本体质检测报告.htm in Resources */ = {isa = PBXBuildFile; fileRef = A05571DC1ECEF28D0074DE69 /* 基本体质检测报告.htm */; };
+		A05572401ECEF28E0074DE69 /* 大肠检测检测报告.htm in Resources */ = {isa = PBXBuildFile; fileRef = A05571DD1ECEF28D0074DE69 /* 大肠检测检测报告.htm */; };
+		A05572411ECEF28E0074DE69 /* 妇科检测报告.htm in Resources */ = {isa = PBXBuildFile; fileRef = A05571DE1ECEF28D0074DE69 /* 妇科检测报告.htm */; };
+		A05572421ECEF28E0074DE69 /* 小儿多动症检测报告.htm in Resources */ = {isa = PBXBuildFile; fileRef = A05571DF1ECEF28D0074DE69 /* 小儿多动症检测报告.htm */; };
+		A05572431ECEF28E0074DE69 /* 微量元素检测报告.htm in Resources */ = {isa = PBXBuildFile; fileRef = A05571E01ECEF28D0074DE69 /* 微量元素检测报告.htm */; };
+		A05572441ECEF28E0074DE69 /* 心脑血管检测报告.htm in Resources */ = {isa = PBXBuildFile; fileRef = A05571E11ECEF28D0074DE69 /* 心脑血管检测报告.htm */; };
+		A05572451ECEF28E0074DE69 /* 月经周期检测报告.htm in Resources */ = {isa = PBXBuildFile; fileRef = A05571E21ECEF28D0074DE69 /* 月经周期检测报告.htm */; };
+		A05572461ECEF28E0074DE69 /* 氨基酸检测报告.htm in Resources */ = {isa = PBXBuildFile; fileRef = A05571E31ECEF28D0074DE69 /* 氨基酸检测报告.htm */; };
+		A05572471ECEF28E0074DE69 /* 甲状腺检测报告.htm in Resources */ = {isa = PBXBuildFile; fileRef = A05571E41ECEF28D0074DE69 /* 甲状腺检测报告.htm */; };
+		A05572481ECEF28E0074DE69 /* 男性性功能检测报告.htm in Resources */ = {isa = PBXBuildFile; fileRef = A05571E51ECEF28D0074DE69 /* 男性性功能检测报告.htm */; };
+		A05572491ECEF28E0074DE69 /* 皮肤检测报告.htm in Resources */ = {isa = PBXBuildFile; fileRef = A05571E61ECEF28D0074DE69 /* 皮肤检测报告.htm */; };
+		A055724A1ECEF28E0074DE69 /* 眼部检测报告.htm in Resources */ = {isa = PBXBuildFile; fileRef = A05571E71ECEF28D0074DE69 /* 眼部检测报告.htm */; };
+		A055724B1ECEF28E0074DE69 /* 精子和精液检测报告.htm in Resources */ = {isa = PBXBuildFile; fileRef = A05571E81ECEF28D0074DE69 /* 精子和精液检测报告.htm */; };
+		A055724C1ECEF28E0074DE69 /* 经络检测报告.htm in Resources */ = {isa = PBXBuildFile; fileRef = A05571E91ECEF28D0074DE69 /* 经络检测报告.htm */; };
+		A055724D1ECEF28E0074DE69 /* 维生素检测报告.htm in Resources */ = {isa = PBXBuildFile; fileRef = A05571EA1ECEF28D0074DE69 /* 维生素检测报告.htm */; };
+		A055724E1ECEF28E0074DE69 /* 肝功能检测报告.htm in Resources */ = {isa = PBXBuildFile; fileRef = A05571EB1ECEF28D0074DE69 /* 肝功能检测报告.htm */; };
+		A055724F1ECEF28E0074DE69 /* 肥胖症检测报告.htm in Resources */ = {isa = PBXBuildFile; fileRef = A05571EC1ECEF28D0074DE69 /* 肥胖症检测报告.htm */; };
+		A05572501ECEF28E0074DE69 /* 肺功能检测报告.htm in Resources */ = {isa = PBXBuildFile; fileRef = A05571ED1ECEF28D0074DE69 /* 肺功能检测报告.htm */; };
+		A05572511ECEF28E0074DE69 /* 肾脏功能检测报告.htm in Resources */ = {isa = PBXBuildFile; fileRef = A05571EE1ECEF28D0074DE69 /* 肾脏功能检测报告.htm */; };
+		A05572521ECEF28E0074DE69 /* 胃肠功能检测报告.htm in Resources */ = {isa = PBXBuildFile; fileRef = A05571EF1ECEF28D0074DE69 /* 胃肠功能检测报告.htm */; };
+		A05572531ECEF28E0074DE69 /* 胆功能检测报告.htm in Resources */ = {isa = PBXBuildFile; fileRef = A05571F01ECEF28D0074DE69 /* 胆功能检测报告.htm */; };
+		A05572541ECEF28E0074DE69 /* 胰腺功能检测报告.htm in Resources */ = {isa = PBXBuildFile; fileRef = A05571F11ECEF28D0074DE69 /* 胰腺功能检测报告.htm */; };
+		A05572551ECEF28E0074DE69 /* 胶原蛋白检测报告.htm in Resources */ = {isa = PBXBuildFile; fileRef = A05571F21ECEF28D0074DE69 /* 胶原蛋白检测报告.htm */; };
+		A05572561ECEF28E0074DE69 /* 脉搏与脑血管检测报告.htm in Resources */ = {isa = PBXBuildFile; fileRef = A05571F31ECEF28D0074DE69 /* 脉搏与脑血管检测报告.htm */; };
+		A05572571ECEF28E0074DE69 /* 脑神经检测报告.htm in Resources */ = {isa = PBXBuildFile; fileRef = A05571F41ECEF28D0074DE69 /* 脑神经检测报告.htm */; };
+		A05572581ECEF28E0074DE69 /* 血糖检测报告.htm in Resources */ = {isa = PBXBuildFile; fileRef = A05571F51ECEF28D0074DE69 /* 血糖检测报告.htm */; };
+		A05572591ECEF28E0074DE69 /* 血脂检测报告.htm in Resources */ = {isa = PBXBuildFile; fileRef = A05571F61ECEF28D0074DE69 /* 血脂检测报告.htm */; };
+		A055725A1ECEF28E0074DE69 /* 辅酶检测报告.htm in Resources */ = {isa = PBXBuildFile; fileRef = A05571F71ECEF28D0074DE69 /* 辅酶检测报告.htm */; };
+		A055725B1ECEF28E0074DE69 /* 过敏检测报告.htm in Resources */ = {isa = PBXBuildFile; fileRef = A05571F81ECEF28D0074DE69 /* 过敏检测报告.htm */; };
+		A055725C1ECEF28E0074DE69 /* 重金属检测报告.htm in Resources */ = {isa = PBXBuildFile; fileRef = A05571F91ECEF28D0074DE69 /* 重金属检测报告.htm */; };
+		A055725D1ECEF28E0074DE69 /* 量子弱磁综合报告单.htm in Resources */ = {isa = PBXBuildFile; fileRef = A05571FA1ECEF28D0074DE69 /* 量子弱磁综合报告单.htm */; };
+		A055725E1ECEF28E0074DE69 /* 量子检测综合报告单.htm in Resources */ = {isa = PBXBuildFile; fileRef = A05571FB1ECEF28E0074DE69 /* 量子检测综合报告单.htm */; };
+		A055725F1ECEF28E0074DE69 /* 风湿骨病检测报告.htm in Resources */ = {isa = PBXBuildFile; fileRef = A05571FC1ECEF28E0074DE69 /* 风湿骨病检测报告.htm */; };
+		A05572601ECEF28E0074DE69 /* 骨密度检测报告.htm in Resources */ = {isa = PBXBuildFile; fileRef = A05571FD1ECEF28E0074DE69 /* 骨密度检测报告.htm */; };
+		A05572611ECEF28E0074DE69 /* 骨生长指数检测报告.htm in Resources */ = {isa = PBXBuildFile; fileRef = A05571FE1ECEF28E0074DE69 /* 骨生长指数检测报告.htm */; };
+		A05572621ECEF28E0074DE69 /* 骨病检测报告.htm in Resources */ = {isa = PBXBuildFile; fileRef = A05571FF1ECEF28E0074DE69 /* 骨病检测报告.htm */; };
+		A05572641ECEF31F0074DE69 /* QAAddViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = A05572631ECEF31F0074DE69 /* QAAddViewController.xib */; };
+		F69164AB1DD0378DD572A5EA /* libPods-newQA.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 0A0C11B43BD28E8788BC90F3 /* libPods-newQA.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		0A0C11B43BD28E8788BC90F3 /* libPods-newQA.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-newQA.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		925774E76C896EE5C7E17BFC /* Pods-newQA.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-newQA.debug.xcconfig"; path = "Pods/Target Support Files/Pods-newQA/Pods-newQA.debug.xcconfig"; sourceTree = "<group>"; };
+		A055716D1ECEEC640074DE69 /* newQA.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = newQA.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A05571711ECEEC640074DE69 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		A05571731ECEEC640074DE69 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		A05571741ECEEC640074DE69 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		A05571761ECEEC640074DE69 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		A05571771ECEEC640074DE69 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		A055717A1ECEEC640074DE69 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A055717F1ECEEC640074DE69 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		A05571811ECEEC640074DE69 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A05571991ECEF28D0074DE69 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A055719A1ECEF28D0074DE69 /* big.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = big.png; sourceTree = "<group>"; };
+		A055719B1ECEF28D0074DE69 /* DateAndTimePickerView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DateAndTimePickerView.xib; sourceTree = "<group>"; };
+		A055719C1ECEF28D0074DE69 /* end.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = end.gif; sourceTree = "<group>"; };
+		A055719D1ECEF28D0074DE69 /* health.css */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.css; path = health.css; sourceTree = "<group>"; };
+		A055719E1ECEF28D0074DE69 /* health.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = health.js; sourceTree = "<group>"; };
+		A055719F1ECEF28D0074DE69 /* libQuantumAnalyzer.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libQuantumAnalyzer.a; sourceTree = "<group>"; };
+		A05571A01ECEF28D0074DE69 /* man_1.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = man_1.mp4; sourceTree = "<group>"; };
+		A05571A11ECEF28D0074DE69 /* man_2.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = man_2.mp4; sourceTree = "<group>"; };
+		A05571A21ECEF28D0074DE69 /* man_3.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = man_3.mp4; sourceTree = "<group>"; };
+		A05571A31ECEF28D0074DE69 /* Mark.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Mark.jpg; sourceTree = "<group>"; };
+		A05571A41ECEF28D0074DE69 /* modules.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = modules.xml; sourceTree = "<group>"; };
+		A05571A51ECEF28D0074DE69 /* nv_1.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = nv_1.mp4; sourceTree = "<group>"; };
+		A05571A61ECEF28D0074DE69 /* nv_2.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = nv_2.mp4; sourceTree = "<group>"; };
+		A05571A71ECEF28D0074DE69 /* nv_3.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = nv_3.mp4; sourceTree = "<group>"; };
+		A05571A81ECEF28D0074DE69 /* PageBg.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = PageBg.jpg; sourceTree = "<group>"; };
+		A05571A91ECEF28D0074DE69 /* PageBg1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = PageBg1.jpg; sourceTree = "<group>"; };
+		A05571AA1ECEF28D0074DE69 /* PageBg2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = PageBg2.png; sourceTree = "<group>"; };
+		A05571AB1ECEF28D0074DE69 /* Podfile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Podfile; sourceTree = "<group>"; };
+		A05571AD1ECEF28D0074DE69 /* QAAlertView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = QAAlertView.xib; sourceTree = "<group>"; };
+		A05571AE1ECEF28D0074DE69 /* QABaseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QABaseViewController.h; sourceTree = "<group>"; };
+		A05571AF1ECEF28D0074DE69 /* QABeginCheckViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = QABeginCheckViewController.xib; sourceTree = "<group>"; };
+		A05571B01ECEF28D0074DE69 /* QAConfigViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = QAConfigViewController.xib; sourceTree = "<group>"; };
+		A05571B11ECEF28D0074DE69 /* QACreatUserViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = QACreatUserViewController.xib; sourceTree = "<group>"; };
+		A05571B21ECEF28D0074DE69 /* QADeleteViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = QADeleteViewController.xib; sourceTree = "<group>"; };
+		A05571B31ECEF28D0074DE69 /* QAGuideViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QAGuideViewController.h; sourceTree = "<group>"; };
+		A05571B41ECEF28D0074DE69 /* QAHealthTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = QAHealthTableViewCell.xib; sourceTree = "<group>"; };
+		A05571B51ECEF28D0074DE69 /* QAHealthViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = QAHealthViewController.xib; sourceTree = "<group>"; };
+		A05571B61ECEF28D0074DE69 /* QAHistoryTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = QAHistoryTableViewCell.xib; sourceTree = "<group>"; };
+		A05571B71ECEF28D0074DE69 /* QAHistoryViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = QAHistoryViewController.xib; sourceTree = "<group>"; };
+		A05571B81ECEF28D0074DE69 /* QAHomeViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = QAHomeViewController.xib; sourceTree = "<group>"; };
+		A05571B91ECEF28D0074DE69 /* QAManageTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = QAManageTableViewCell.xib; sourceTree = "<group>"; };
+		A05571BA1ECEF28D0074DE69 /* QAManageViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = QAManageViewController.xib; sourceTree = "<group>"; };
+		A05571BB1ECEF28D0074DE69 /* QANavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QANavigationController.h; sourceTree = "<group>"; };
+		A05571BC1ECEF28D0074DE69 /* QANewHealthCollectionViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = QANewHealthCollectionViewCell.xib; sourceTree = "<group>"; };
+		A05571BD1ECEF28D0074DE69 /* QANewHealthViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = QANewHealthViewController.xib; sourceTree = "<group>"; };
+		A05571BE1ECEF28D0074DE69 /* QARootViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QARootViewController.h; sourceTree = "<group>"; };
+		A05571BF1ECEF28D0074DE69 /* QASettingViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = QASettingViewController.xib; sourceTree = "<group>"; };
+		A05571C01ECEF28D0074DE69 /* QMAnalyzer_20160614-男.iml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "QMAnalyzer_20160614-男.iml"; sourceTree = "<group>"; };
+		A05571C11ECEF28D0074DE69 /* QQ20170328-230311.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "QQ20170328-230311.png"; sourceTree = "<group>"; };
+		A05571C21ECEF28D0074DE69 /* ReportList.sqlite */ = {isa = PBXFileReference; lastKnownFileType = file; path = ReportList.sqlite; sourceTree = "<group>"; };
+		A05571C31ECEF28D0074DE69 /* TblMeasData.sqlite */ = {isa = PBXFileReference; lastKnownFileType = file; path = TblMeasData.sqlite; sourceTree = "<group>"; };
+		A05571C41ECEF28D0074DE69 /* TblSubItemCase.sqlite */ = {isa = PBXFileReference; lastKnownFileType = file; path = TblSubItemCase.sqlite; sourceTree = "<group>"; };
+		A05571C51ECEF28D0074DE69 /* TblSuggest.sqlite */ = {isa = PBXFileReference; lastKnownFileType = file; path = TblSuggest.sqlite; sourceTree = "<group>"; };
+		A05571C61ECEF28D0074DE69 /* template.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = template.html; sourceTree = "<group>"; };
+		A05571C71ECEF28D0074DE69 /* workspace.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = workspace.xml; sourceTree = "<group>"; };
+		A05571C81ECEF28D0074DE69 /* YC00.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = YC00.gif; sourceTree = "<group>"; };
+		A05571C91ECEF28D0074DE69 /* YC01.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = YC01.gif; sourceTree = "<group>"; };
+		A05571CA1ECEF28D0074DE69 /* YC02.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = YC02.gif; sourceTree = "<group>"; };
+		A05571CB1ECEF28D0074DE69 /* YC03.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = YC03.gif; sourceTree = "<group>"; };
+		A05571CC1ECEF28D0074DE69 /* YC04.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = YC04.gif; sourceTree = "<group>"; };
+		A05571CD1ECEF28D0074DE69 /* YC05.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = YC05.gif; sourceTree = "<group>"; };
+		A05571CE1ECEF28D0074DE69 /* YC06.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = YC06.gif; sourceTree = "<group>"; };
+		A05571CF1ECEF28D0074DE69 /* YC07.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = YC07.gif; sourceTree = "<group>"; };
+		A05571D01ECEF28D0074DE69 /* YC08.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = YC08.gif; sourceTree = "<group>"; };
+		A05571D11ECEF28D0074DE69 /* YC09.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = YC09.gif; sourceTree = "<group>"; };
+		A05571D21ECEF28D0074DE69 /* YCMark1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = YCMark1.jpg; sourceTree = "<group>"; };
+		A05571D31ECEF28D0074DE69 /* YCMark2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = YCMark2.jpg; sourceTree = "<group>"; };
+		A05571D41ECEF28D0074DE69 /* YCMark3.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = YCMark3.jpg; sourceTree = "<group>"; };
+		A05571D51ECEF28D0074DE69 /* YCMark4.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = YCMark4.jpg; sourceTree = "<group>"; };
+		A05571D61ECEF28D0074DE69 /* 乳腺检测报告.htm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = "乳腺检测报告.htm"; sourceTree = "<group>"; };
+		A05571D71ECEF28D0074DE69 /* 人体成分检测报告.htm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = "人体成分检测报告.htm"; sourceTree = "<group>"; };
+		A05571D81ECEF28D0074DE69 /* 人体毒素检测报告.htm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = "人体毒素检测报告.htm"; sourceTree = "<group>"; };
+		A05571D91ECEF28D0074DE69 /* 免疫系统检测报告.htm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = "免疫系统检测报告.htm"; sourceTree = "<group>"; };
+		A05571DA1ECEF28D0074DE69 /* 内分泌系统检测报告.htm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = "内分泌系统检测报告.htm"; sourceTree = "<group>"; };
+		A05571DB1ECEF28D0074DE69 /* 前列腺检测报告.htm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = "前列腺检测报告.htm"; sourceTree = "<group>"; };
+		A05571DC1ECEF28D0074DE69 /* 基本体质检测报告.htm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = "基本体质检测报告.htm"; sourceTree = "<group>"; };
+		A05571DD1ECEF28D0074DE69 /* 大肠检测检测报告.htm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = "大肠检测检测报告.htm"; sourceTree = "<group>"; };
+		A05571DE1ECEF28D0074DE69 /* 妇科检测报告.htm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = "妇科检测报告.htm"; sourceTree = "<group>"; };
+		A05571DF1ECEF28D0074DE69 /* 小儿多动症检测报告.htm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = "小儿多动症检测报告.htm"; sourceTree = "<group>"; };
+		A05571E01ECEF28D0074DE69 /* 微量元素检测报告.htm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = "微量元素检测报告.htm"; sourceTree = "<group>"; };
+		A05571E11ECEF28D0074DE69 /* 心脑血管检测报告.htm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = "心脑血管检测报告.htm"; sourceTree = "<group>"; };
+		A05571E21ECEF28D0074DE69 /* 月经周期检测报告.htm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = "月经周期检测报告.htm"; sourceTree = "<group>"; };
+		A05571E31ECEF28D0074DE69 /* 氨基酸检测报告.htm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = "氨基酸检测报告.htm"; sourceTree = "<group>"; };
+		A05571E41ECEF28D0074DE69 /* 甲状腺检测报告.htm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = "甲状腺检测报告.htm"; sourceTree = "<group>"; };
+		A05571E51ECEF28D0074DE69 /* 男性性功能检测报告.htm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = "男性性功能检测报告.htm"; sourceTree = "<group>"; };
+		A05571E61ECEF28D0074DE69 /* 皮肤检测报告.htm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = "皮肤检测报告.htm"; sourceTree = "<group>"; };
+		A05571E71ECEF28D0074DE69 /* 眼部检测报告.htm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = "眼部检测报告.htm"; sourceTree = "<group>"; };
+		A05571E81ECEF28D0074DE69 /* 精子和精液检测报告.htm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = "精子和精液检测报告.htm"; sourceTree = "<group>"; };
+		A05571E91ECEF28D0074DE69 /* 经络检测报告.htm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = "经络检测报告.htm"; sourceTree = "<group>"; };
+		A05571EA1ECEF28D0074DE69 /* 维生素检测报告.htm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = "维生素检测报告.htm"; sourceTree = "<group>"; };
+		A05571EB1ECEF28D0074DE69 /* 肝功能检测报告.htm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = "肝功能检测报告.htm"; sourceTree = "<group>"; };
+		A05571EC1ECEF28D0074DE69 /* 肥胖症检测报告.htm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = "肥胖症检测报告.htm"; sourceTree = "<group>"; };
+		A05571ED1ECEF28D0074DE69 /* 肺功能检测报告.htm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = "肺功能检测报告.htm"; sourceTree = "<group>"; };
+		A05571EE1ECEF28D0074DE69 /* 肾脏功能检测报告.htm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = "肾脏功能检测报告.htm"; sourceTree = "<group>"; };
+		A05571EF1ECEF28D0074DE69 /* 胃肠功能检测报告.htm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = "胃肠功能检测报告.htm"; sourceTree = "<group>"; };
+		A05571F01ECEF28D0074DE69 /* 胆功能检测报告.htm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = "胆功能检测报告.htm"; sourceTree = "<group>"; };
+		A05571F11ECEF28D0074DE69 /* 胰腺功能检测报告.htm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = "胰腺功能检测报告.htm"; sourceTree = "<group>"; };
+		A05571F21ECEF28D0074DE69 /* 胶原蛋白检测报告.htm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = "胶原蛋白检测报告.htm"; sourceTree = "<group>"; };
+		A05571F31ECEF28D0074DE69 /* 脉搏与脑血管检测报告.htm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = "脉搏与脑血管检测报告.htm"; sourceTree = "<group>"; };
+		A05571F41ECEF28D0074DE69 /* 脑神经检测报告.htm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = "脑神经检测报告.htm"; sourceTree = "<group>"; };
+		A05571F51ECEF28D0074DE69 /* 血糖检测报告.htm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = "血糖检测报告.htm"; sourceTree = "<group>"; };
+		A05571F61ECEF28D0074DE69 /* 血脂检测报告.htm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = "血脂检测报告.htm"; sourceTree = "<group>"; };
+		A05571F71ECEF28D0074DE69 /* 辅酶检测报告.htm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = "辅酶检测报告.htm"; sourceTree = "<group>"; };
+		A05571F81ECEF28D0074DE69 /* 过敏检测报告.htm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = "过敏检测报告.htm"; sourceTree = "<group>"; };
+		A05571F91ECEF28D0074DE69 /* 重金属检测报告.htm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = "重金属检测报告.htm"; sourceTree = "<group>"; };
+		A05571FA1ECEF28D0074DE69 /* 量子弱磁综合报告单.htm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = "量子弱磁综合报告单.htm"; sourceTree = "<group>"; };
+		A05571FB1ECEF28E0074DE69 /* 量子检测综合报告单.htm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = "量子检测综合报告单.htm"; sourceTree = "<group>"; };
+		A05571FC1ECEF28E0074DE69 /* 风湿骨病检测报告.htm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = "风湿骨病检测报告.htm"; sourceTree = "<group>"; };
+		A05571FD1ECEF28E0074DE69 /* 骨密度检测报告.htm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = "骨密度检测报告.htm"; sourceTree = "<group>"; };
+		A05571FE1ECEF28E0074DE69 /* 骨生长指数检测报告.htm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = "骨生长指数检测报告.htm"; sourceTree = "<group>"; };
+		A05571FF1ECEF28E0074DE69 /* 骨病检测报告.htm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = "骨病检测报告.htm"; sourceTree = "<group>"; };
+		A05572631ECEF31F0074DE69 /* QAAddViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = QAAddViewController.xib; sourceTree = "<group>"; };
+		BAF6B04C61E799C802CBF201 /* Pods-newQA.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-newQA.release.xcconfig"; path = "Pods/Target Support Files/Pods-newQA/Pods-newQA.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A055716A1ECEEC640074DE69 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F69164AB1DD0378DD572A5EA /* libPods-newQA.a in Frameworks */,
+				A05572061ECEF28E0074DE69 /* libQuantumAnalyzer.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		9B42AE8A6914C8DC8A36AF46 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				925774E76C896EE5C7E17BFC /* Pods-newQA.debug.xcconfig */,
+				BAF6B04C61E799C802CBF201 /* Pods-newQA.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		A05571641ECEEC640074DE69 = {
+			isa = PBXGroup;
+			children = (
+				A055716F1ECEEC640074DE69 /* newQA */,
+				A055716E1ECEEC640074DE69 /* Products */,
+				9B42AE8A6914C8DC8A36AF46 /* Pods */,
+				AED7455B2FBBF73303F5147D /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		A055716E1ECEEC640074DE69 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A055716D1ECEEC640074DE69 /* newQA.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A055716F1ECEEC640074DE69 /* newQA */ = {
+			isa = PBXGroup;
+			children = (
+				A05571981ECEF28D0074DE69 /* QuantumAnalyzer */,
+				A05571731ECEEC640074DE69 /* AppDelegate.h */,
+				A05571741ECEEC640074DE69 /* AppDelegate.m */,
+				A05571761ECEEC640074DE69 /* ViewController.h */,
+				A05571771ECEEC640074DE69 /* ViewController.m */,
+				A05571791ECEEC640074DE69 /* Main.storyboard */,
+				A055717E1ECEEC640074DE69 /* LaunchScreen.storyboard */,
+				A05571811ECEEC640074DE69 /* Info.plist */,
+				A05571701ECEEC640074DE69 /* Supporting Files */,
+			);
+			path = newQA;
+			sourceTree = "<group>";
+		};
+		A05571701ECEEC640074DE69 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A05571711ECEEC640074DE69 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		A05571981ECEF28D0074DE69 /* QuantumAnalyzer */ = {
+			isa = PBXGroup;
+			children = (
+				A05571991ECEF28D0074DE69 /* Assets.xcassets */,
+				A055719A1ECEF28D0074DE69 /* big.png */,
+				A055719B1ECEF28D0074DE69 /* DateAndTimePickerView.xib */,
+				A055719C1ECEF28D0074DE69 /* end.gif */,
+				A055719D1ECEF28D0074DE69 /* health.css */,
+				A055719E1ECEF28D0074DE69 /* health.js */,
+				A055719F1ECEF28D0074DE69 /* libQuantumAnalyzer.a */,
+				A05571A01ECEF28D0074DE69 /* man_1.mp4 */,
+				A05571A11ECEF28D0074DE69 /* man_2.mp4 */,
+				A05571A21ECEF28D0074DE69 /* man_3.mp4 */,
+				A05571A31ECEF28D0074DE69 /* Mark.jpg */,
+				A05571A41ECEF28D0074DE69 /* modules.xml */,
+				A05571A51ECEF28D0074DE69 /* nv_1.mp4 */,
+				A05571A61ECEF28D0074DE69 /* nv_2.mp4 */,
+				A05571A71ECEF28D0074DE69 /* nv_3.mp4 */,
+				A05571A81ECEF28D0074DE69 /* PageBg.jpg */,
+				A05571A91ECEF28D0074DE69 /* PageBg1.jpg */,
+				A05571AA1ECEF28D0074DE69 /* PageBg2.png */,
+				A05571AB1ECEF28D0074DE69 /* Podfile */,
+				A05571AD1ECEF28D0074DE69 /* QAAlertView.xib */,
+				A05572631ECEF31F0074DE69 /* QAAddViewController.xib */,
+				A05571AE1ECEF28D0074DE69 /* QABaseViewController.h */,
+				A05571AF1ECEF28D0074DE69 /* QABeginCheckViewController.xib */,
+				A05571B01ECEF28D0074DE69 /* QAConfigViewController.xib */,
+				A05571B11ECEF28D0074DE69 /* QACreatUserViewController.xib */,
+				A05571B21ECEF28D0074DE69 /* QADeleteViewController.xib */,
+				A05571B31ECEF28D0074DE69 /* QAGuideViewController.h */,
+				A05571B41ECEF28D0074DE69 /* QAHealthTableViewCell.xib */,
+				A05571B51ECEF28D0074DE69 /* QAHealthViewController.xib */,
+				A05571B61ECEF28D0074DE69 /* QAHistoryTableViewCell.xib */,
+				A05571B71ECEF28D0074DE69 /* QAHistoryViewController.xib */,
+				A05571B81ECEF28D0074DE69 /* QAHomeViewController.xib */,
+				A05571B91ECEF28D0074DE69 /* QAManageTableViewCell.xib */,
+				A05571BA1ECEF28D0074DE69 /* QAManageViewController.xib */,
+				A05571BB1ECEF28D0074DE69 /* QANavigationController.h */,
+				A05571BC1ECEF28D0074DE69 /* QANewHealthCollectionViewCell.xib */,
+				A05571BD1ECEF28D0074DE69 /* QANewHealthViewController.xib */,
+				A05571BE1ECEF28D0074DE69 /* QARootViewController.h */,
+				A05571BF1ECEF28D0074DE69 /* QASettingViewController.xib */,
+				A05571C01ECEF28D0074DE69 /* QMAnalyzer_20160614-男.iml */,
+				A05571C11ECEF28D0074DE69 /* QQ20170328-230311.png */,
+				A05571C21ECEF28D0074DE69 /* ReportList.sqlite */,
+				A05571C31ECEF28D0074DE69 /* TblMeasData.sqlite */,
+				A05571C41ECEF28D0074DE69 /* TblSubItemCase.sqlite */,
+				A05571C51ECEF28D0074DE69 /* TblSuggest.sqlite */,
+				A05571C61ECEF28D0074DE69 /* template.html */,
+				A05571C71ECEF28D0074DE69 /* workspace.xml */,
+				A05571C81ECEF28D0074DE69 /* YC00.gif */,
+				A05571C91ECEF28D0074DE69 /* YC01.gif */,
+				A05571CA1ECEF28D0074DE69 /* YC02.gif */,
+				A05571CB1ECEF28D0074DE69 /* YC03.gif */,
+				A05571CC1ECEF28D0074DE69 /* YC04.gif */,
+				A05571CD1ECEF28D0074DE69 /* YC05.gif */,
+				A05571CE1ECEF28D0074DE69 /* YC06.gif */,
+				A05571CF1ECEF28D0074DE69 /* YC07.gif */,
+				A05571D01ECEF28D0074DE69 /* YC08.gif */,
+				A05571D11ECEF28D0074DE69 /* YC09.gif */,
+				A05571D21ECEF28D0074DE69 /* YCMark1.jpg */,
+				A05571D31ECEF28D0074DE69 /* YCMark2.jpg */,
+				A05571D41ECEF28D0074DE69 /* YCMark3.jpg */,
+				A05571D51ECEF28D0074DE69 /* YCMark4.jpg */,
+				A05571D61ECEF28D0074DE69 /* 乳腺检测报告.htm */,
+				A05571D71ECEF28D0074DE69 /* 人体成分检测报告.htm */,
+				A05571D81ECEF28D0074DE69 /* 人体毒素检测报告.htm */,
+				A05571D91ECEF28D0074DE69 /* 免疫系统检测报告.htm */,
+				A05571DA1ECEF28D0074DE69 /* 内分泌系统检测报告.htm */,
+				A05571DB1ECEF28D0074DE69 /* 前列腺检测报告.htm */,
+				A05571DC1ECEF28D0074DE69 /* 基本体质检测报告.htm */,
+				A05571DD1ECEF28D0074DE69 /* 大肠检测检测报告.htm */,
+				A05571DE1ECEF28D0074DE69 /* 妇科检测报告.htm */,
+				A05571DF1ECEF28D0074DE69 /* 小儿多动症检测报告.htm */,
+				A05571E01ECEF28D0074DE69 /* 微量元素检测报告.htm */,
+				A05571E11ECEF28D0074DE69 /* 心脑血管检测报告.htm */,
+				A05571E21ECEF28D0074DE69 /* 月经周期检测报告.htm */,
+				A05571E31ECEF28D0074DE69 /* 氨基酸检测报告.htm */,
+				A05571E41ECEF28D0074DE69 /* 甲状腺检测报告.htm */,
+				A05571E51ECEF28D0074DE69 /* 男性性功能检测报告.htm */,
+				A05571E61ECEF28D0074DE69 /* 皮肤检测报告.htm */,
+				A05571E71ECEF28D0074DE69 /* 眼部检测报告.htm */,
+				A05571E81ECEF28D0074DE69 /* 精子和精液检测报告.htm */,
+				A05571E91ECEF28D0074DE69 /* 经络检测报告.htm */,
+				A05571EA1ECEF28D0074DE69 /* 维生素检测报告.htm */,
+				A05571EB1ECEF28D0074DE69 /* 肝功能检测报告.htm */,
+				A05571EC1ECEF28D0074DE69 /* 肥胖症检测报告.htm */,
+				A05571ED1ECEF28D0074DE69 /* 肺功能检测报告.htm */,
+				A05571EE1ECEF28D0074DE69 /* 肾脏功能检测报告.htm */,
+				A05571EF1ECEF28D0074DE69 /* 胃肠功能检测报告.htm */,
+				A05571F01ECEF28D0074DE69 /* 胆功能检测报告.htm */,
+				A05571F11ECEF28D0074DE69 /* 胰腺功能检测报告.htm */,
+				A05571F21ECEF28D0074DE69 /* 胶原蛋白检测报告.htm */,
+				A05571F31ECEF28D0074DE69 /* 脉搏与脑血管检测报告.htm */,
+				A05571F41ECEF28D0074DE69 /* 脑神经检测报告.htm */,
+				A05571F51ECEF28D0074DE69 /* 血糖检测报告.htm */,
+				A05571F61ECEF28D0074DE69 /* 血脂检测报告.htm */,
+				A05571F71ECEF28D0074DE69 /* 辅酶检测报告.htm */,
+				A05571F81ECEF28D0074DE69 /* 过敏检测报告.htm */,
+				A05571F91ECEF28D0074DE69 /* 重金属检测报告.htm */,
+				A05571FA1ECEF28D0074DE69 /* 量子弱磁综合报告单.htm */,
+				A05571FB1ECEF28E0074DE69 /* 量子检测综合报告单.htm */,
+				A05571FC1ECEF28E0074DE69 /* 风湿骨病检测报告.htm */,
+				A05571FD1ECEF28E0074DE69 /* 骨密度检测报告.htm */,
+				A05571FE1ECEF28E0074DE69 /* 骨生长指数检测报告.htm */,
+				A05571FF1ECEF28E0074DE69 /* 骨病检测报告.htm */,
+			);
+			path = QuantumAnalyzer;
+			sourceTree = "<group>";
+		};
+		AED7455B2FBBF73303F5147D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				0A0C11B43BD28E8788BC90F3 /* libPods-newQA.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A055716C1ECEEC640074DE69 /* newQA */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A05571841ECEEC640074DE69 /* Build configuration list for PBXNativeTarget "newQA" */;
+			buildPhases = (
+				8002BE4F18AB7276415E2AF1 /* [CP] Check Pods Manifest.lock */,
+				A05571691ECEEC640074DE69 /* Sources */,
+				A055716A1ECEEC640074DE69 /* Frameworks */,
+				A055716B1ECEEC640074DE69 /* Resources */,
+				5883A5F9B1A26BD52C3FCF69 /* [CP] Embed Pods Frameworks */,
+				379C2404B0332EF6F5295524 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = newQA;
+			productName = newQA;
+			productReference = A055716D1ECEEC640074DE69 /* newQA.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A05571651ECEEC640074DE69 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = songchongchong;
+				TargetAttributes = {
+					A055716C1ECEEC640074DE69 = {
+						CreatedOnToolsVersion = 8.3.2;
+						DevelopmentTeam = X3U2P9UCFT;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = A05571681ECEEC640074DE69 /* Build configuration list for PBXProject "newQA" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A05571641ECEEC640074DE69;
+			productRefGroup = A055716E1ECEEC640074DE69 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A055716C1ECEEC640074DE69 /* newQA */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A055716B1ECEEC640074DE69 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A05572271ECEF28E0074DE69 /* TblSubItemCase.sqlite in Resources */,
+				A05572511ECEF28E0074DE69 /* 肾脏功能检测报告.htm in Resources */,
+				A05572381ECEF28E0074DE69 /* YCMark4.jpg in Resources */,
+				A05572461ECEF28E0074DE69 /* 氨基酸检测报告.htm in Resources */,
+				A05572281ECEF28E0074DE69 /* TblSuggest.sqlite in Resources */,
+				A05572211ECEF28E0074DE69 /* QANewHealthViewController.xib in Resources */,
+				A055725A1ECEF28E0074DE69 /* 辅酶检测报告.htm in Resources */,
+				A05572011ECEF28E0074DE69 /* big.png in Resources */,
+				A055724C1ECEF28E0074DE69 /* 经络检测报告.htm in Resources */,
+				A05572091ECEF28E0074DE69 /* man_3.mp4 in Resources */,
+				A055720D1ECEF28E0074DE69 /* nv_2.mp4 in Resources */,
+				A055721F1ECEF28E0074DE69 /* QAManageViewController.xib in Resources */,
+				A05572291ECEF28E0074DE69 /* template.html in Resources */,
+				A055723B1ECEF28E0074DE69 /* 人体毒素检测报告.htm in Resources */,
+				A05572621ECEF28E0074DE69 /* 骨病检测报告.htm in Resources */,
+				A055725E1ECEF28E0074DE69 /* 量子检测综合报告单.htm in Resources */,
+				A05572581ECEF28E0074DE69 /* 血糖检测报告.htm in Resources */,
+				A05572181ECEF28E0074DE69 /* QADeleteViewController.xib in Resources */,
+				A05572551ECEF28E0074DE69 /* 胶原蛋白检测报告.htm in Resources */,
+				A055721A1ECEF28E0074DE69 /* QAHealthViewController.xib in Resources */,
+				A05571801ECEEC640074DE69 /* LaunchScreen.storyboard in Resources */,
+				A055725B1ECEF28E0074DE69 /* 过敏检测报告.htm in Resources */,
+				A055724F1ECEF28E0074DE69 /* 肥胖症检测报告.htm in Resources */,
+				A05572591ECEF28E0074DE69 /* 血脂检测报告.htm in Resources */,
+				A05572111ECEF28E0074DE69 /* PageBg2.png in Resources */,
+				A05572501ECEF28E0074DE69 /* 肺功能检测报告.htm in Resources */,
+				A055723C1ECEF28E0074DE69 /* 免疫系统检测报告.htm in Resources */,
+				A055722E1ECEF28E0074DE69 /* YC03.gif in Resources */,
+				A05572031ECEF28E0074DE69 /* end.gif in Resources */,
+				A05572431ECEF28E0074DE69 /* 微量元素检测报告.htm in Resources */,
+				A05572021ECEF28E0074DE69 /* DateAndTimePickerView.xib in Resources */,
+				A05572051ECEF28E0074DE69 /* health.js in Resources */,
+				A055720E1ECEF28E0074DE69 /* nv_3.mp4 in Resources */,
+				A05572071ECEF28E0074DE69 /* man_1.mp4 in Resources */,
+				A05572221ECEF28E0074DE69 /* QASettingViewController.xib in Resources */,
+				A05572241ECEF28E0074DE69 /* QQ20170328-230311.png in Resources */,
+				A05572361ECEF28E0074DE69 /* YCMark2.jpg in Resources */,
+				A05572121ECEF28E0074DE69 /* Podfile in Resources */,
+				A05572351ECEF28E0074DE69 /* YCMark1.jpg in Resources */,
+				A05572161ECEF28E0074DE69 /* QAConfigViewController.xib in Resources */,
+				A05572451ECEF28E0074DE69 /* 月经周期检测报告.htm in Resources */,
+				A05572311ECEF28E0074DE69 /* YC06.gif in Resources */,
+				A05572471ECEF28E0074DE69 /* 甲状腺检测报告.htm in Resources */,
+				A055725F1ECEF28E0074DE69 /* 风湿骨病检测报告.htm in Resources */,
+				A055721C1ECEF28E0074DE69 /* QAHistoryViewController.xib in Resources */,
+				A05572191ECEF28E0074DE69 /* QAHealthTableViewCell.xib in Resources */,
+				A05572531ECEF28E0074DE69 /* 胆功能检测报告.htm in Resources */,
+				A05572251ECEF28E0074DE69 /* ReportList.sqlite in Resources */,
+				A055722A1ECEF28E0074DE69 /* workspace.xml in Resources */,
+				A05572441ECEF28E0074DE69 /* 心脑血管检测报告.htm in Resources */,
+				A05572261ECEF28E0074DE69 /* TblMeasData.sqlite in Resources */,
+				A05572101ECEF28E0074DE69 /* PageBg1.jpg in Resources */,
+				A055723F1ECEF28E0074DE69 /* 基本体质检测报告.htm in Resources */,
+				A055724D1ECEF28E0074DE69 /* 维生素检测报告.htm in Resources */,
+				A05572141ECEF28E0074DE69 /* QAAlertView.xib in Resources */,
+				A05572371ECEF28E0074DE69 /* YCMark3.jpg in Resources */,
+				A05572201ECEF28E0074DE69 /* QANewHealthCollectionViewCell.xib in Resources */,
+				A05572541ECEF28E0074DE69 /* 胰腺功能检测报告.htm in Resources */,
+				A055720F1ECEF28E0074DE69 /* PageBg.jpg in Resources */,
+				A05572421ECEF28E0074DE69 /* 小儿多动症检测报告.htm in Resources */,
+				A055721B1ECEF28E0074DE69 /* QAHistoryTableViewCell.xib in Resources */,
+				A05572401ECEF28E0074DE69 /* 大肠检测检测报告.htm in Resources */,
+				A05572601ECEF28E0074DE69 /* 骨密度检测报告.htm in Resources */,
+				A055722D1ECEF28E0074DE69 /* YC02.gif in Resources */,
+				A05572171ECEF28E0074DE69 /* QACreatUserViewController.xib in Resources */,
+				A05572301ECEF28E0074DE69 /* YC05.gif in Resources */,
+				A055717B1ECEEC640074DE69 /* Main.storyboard in Resources */,
+				A05572081ECEF28E0074DE69 /* man_2.mp4 in Resources */,
+				A055724A1ECEF28E0074DE69 /* 眼部检测报告.htm in Resources */,
+				A05572391ECEF28E0074DE69 /* 乳腺检测报告.htm in Resources */,
+				A05572341ECEF28E0074DE69 /* YC09.gif in Resources */,
+				A05572321ECEF28E0074DE69 /* YC07.gif in Resources */,
+				A05572561ECEF28E0074DE69 /* 脉搏与脑血管检测报告.htm in Resources */,
+				A055723A1ECEF28E0074DE69 /* 人体成分检测报告.htm in Resources */,
+				A05572491ECEF28E0074DE69 /* 皮肤检测报告.htm in Resources */,
+				A05572481ECEF28E0074DE69 /* 男性性功能检测报告.htm in Resources */,
+				A05572641ECEF31F0074DE69 /* QAAddViewController.xib in Resources */,
+				A05572231ECEF28E0074DE69 /* QMAnalyzer_20160614-男.iml in Resources */,
+				A055723D1ECEF28E0074DE69 /* 内分泌系统检测报告.htm in Resources */,
+				A05572611ECEF28E0074DE69 /* 骨生长指数检测报告.htm in Resources */,
+				A055720C1ECEF28E0074DE69 /* nv_1.mp4 in Resources */,
+				A05572411ECEF28E0074DE69 /* 妇科检测报告.htm in Resources */,
+				A055725D1ECEF28E0074DE69 /* 量子弱磁综合报告单.htm in Resources */,
+				A055720B1ECEF28E0074DE69 /* modules.xml in Resources */,
+				A05572521ECEF28E0074DE69 /* 胃肠功能检测报告.htm in Resources */,
+				A05572041ECEF28E0074DE69 /* health.css in Resources */,
+				A055722C1ECEF28E0074DE69 /* YC01.gif in Resources */,
+				A055724E1ECEF28E0074DE69 /* 肝功能检测报告.htm in Resources */,
+				A055722B1ECEF28E0074DE69 /* YC00.gif in Resources */,
+				A055721D1ECEF28E0074DE69 /* QAHomeViewController.xib in Resources */,
+				A055721E1ECEF28E0074DE69 /* QAManageTableViewCell.xib in Resources */,
+				A055723E1ECEF28E0074DE69 /* 前列腺检测报告.htm in Resources */,
+				A055725C1ECEF28E0074DE69 /* 重金属检测报告.htm in Resources */,
+				A055722F1ECEF28E0074DE69 /* YC04.gif in Resources */,
+				A055720A1ECEF28E0074DE69 /* Mark.jpg in Resources */,
+				A05572151ECEF28E0074DE69 /* QABeginCheckViewController.xib in Resources */,
+				A05572331ECEF28E0074DE69 /* YC08.gif in Resources */,
+				A055724B1ECEF28E0074DE69 /* 精子和精液检测报告.htm in Resources */,
+				A05572571ECEF28E0074DE69 /* 脑神经检测报告.htm in Resources */,
+				A05572001ECEF28E0074DE69 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		379C2404B0332EF6F5295524 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-newQA/Pods-newQA-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5883A5F9B1A26BD52C3FCF69 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-newQA/Pods-newQA-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8002BE4F18AB7276415E2AF1 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A05571691ECEEC640074DE69 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A05571781ECEEC640074DE69 /* ViewController.m in Sources */,
+				A05571751ECEEC640074DE69 /* AppDelegate.m in Sources */,
+				A05571721ECEEC640074DE69 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		A05571791ECEEC640074DE69 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A055717A1ECEEC640074DE69 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		A055717E1ECEEC640074DE69 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A055717F1ECEEC640074DE69 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A05571821ECEEC640074DE69 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		A05571831ECEEC640074DE69 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A05571851ECEEC640074DE69 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 925774E76C896EE5C7E17BFC /* Pods-newQA.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = X3U2P9UCFT;
+				INFOPLIST_FILE = newQA/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/newQA/QuantumAnalyzer",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.wisentsoft.newQA;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		A05571861ECEEC640074DE69 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BAF6B04C61E799C802CBF201 /* Pods-newQA.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = X3U2P9UCFT;
+				INFOPLIST_FILE = newQA/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/newQA/QuantumAnalyzer",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.wisentsoft.newQA;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A05571681ECEEC640074DE69 /* Build configuration list for PBXProject "newQA" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A05571821ECEEC640074DE69 /* Debug */,
+				A05571831ECEEC640074DE69 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A05571841ECEEC640074DE69 /* Build configuration list for PBXNativeTarget "newQA" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A05571851ECEEC640074DE69 /* Debug */,
+				A05571861ECEEC640074DE69 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A05571651ECEEC640074DE69 /* Project object */;
+}
